@@ -56,44 +56,44 @@ All permissions starting with at.member are given to everyone automatically, wit
 
 ### Admin Permissions
 
-| Permission                       | Description                                                      |
-| -------------------------------- | ---------------------------------------------------------------- |
-| at.admin.all                     | Allows a player to use /tpall.                                   |
-| at.admin.bypass.cooldown         | Allows a player to bypass the command cooldown.                  |
-| at.admin.bypass.distance-limit   | Allows a player to bypass the distance limit.                    |
-| at.admin.bypass.payment          | Allows a player to bypass payments.                              |
-| at.admin.bypass.teleport-limit   | Allows a player to bypass teleport limitations.                  |
-| at.admin.bypass.teleport-on-join | Allows a player to bypass the teleportation on join function.    |
-| at.admin.bypass.timer            | Allows a player to bypass the warm-up timer.                     |
-| at.admin.delhome                 | Allows a player to delete another player's homes using /delhome. |
-| at.admin.delwarp                 | Allows a player to delete a warp using /delwarp.                 |
-| at.admin.home                    | Allows a player omg stp                                          |
-| at.admin.homes                   |                                                                  |
-| at.admin.mirrorspawn             |                                                                  |
-| at.admin.movehome                |                                                                  |
-| at.admin.notify                  |                                                                  |
-| at.admin.removespawn             |                                                                  |
-| at.admin.request-in-vanish       |                                                                  |
-| at.admin.sethome                 |                                                                  |
-| at.admin.sethome.bypssa          |                                                                  |
-| at.admin.setmainhome             |                                                                  |
-| at.admin.setmainspawn            |                                                                  |
-| at.admin.setspawn                |                                                                  |
-| at.admin.setspawn.other          |                                                                  |
-| at.admin.setwarp                 |                                                                  |
-| at.admin.sign.bed.create         |                                                                  |
-| at.admin.sign.randomtp.create    |                                                                  |
-| at.admin.sign.spawn.create       |                                                                  |
-| at.admin.sign.warp.create        |                                                                  |
-| at.admin.sign.warps.create       |                                                                  |
-| at.admin.toggletp                |                                                                  |
-| at.admin.tploc                   |                                                                  |
-| at.admin.tploc.others            |                                                                  |
-| at.admin.tploc.safe-teleport     |                                                                  |
-| at.admin.tpo                     |                                                                  |
-| at.admin.tpoffline               |                                                                  |
-| at.admin.tpofflinehere           |                                                                  |
-| at.admin.tpohere                 |                                                                  |
-| at.admin.tpr.bypass-world        |                                                                  |
-| at.admin.tpr.other               |                                                                  |
-| at.admin.tpr.other.selector      |                                                                  |
+| Permission                       | Description                                                                                  |
+| -------------------------------- | -------------------------------------------------------------------------------------------- |
+| at.admin.all                     | Allows a player to use /tpall.                                                               |
+| at.admin.bypass.cooldown         | Allows a player to bypass the command cooldown.                                              |
+| at.admin.bypass.distance-limit   | Allows a player to bypass the distance limit.                                                |
+| at.admin.bypass.payment          | Allows a player to bypass payments.                                                          |
+| at.admin.bypass.teleport-limit   | Allows a player to bypass teleport limitations.                                              |
+| at.admin.bypass.teleport-on-join | Allows a player to bypass the teleportation on join function.                                |
+| at.admin.bypass.timer            | Allows a player to bypass the warm-up timer.                                                 |
+| at.admin.delhome                 | Allows a player to delete another player's homes using /delhome.                             |
+| at.admin.delwarp                 | Allows a player to delete a warp using /delwarp.                                             |
+| at.admin.home                    | Allows a player to teleport to the homes of another player.                                  |
+| at.admin.homes                   | Allows a player to access another player's homes.                                            |
+| at.admin.mirrorspawn             | Allows a player to use the /mirrorspawn command.                                             |
+| at.admin.movehome                | Allows a player to move another player's home.                                               |
+| at.admin.notify                  | Notifies plays with this permission when a new update is available.                          |
+| at.admin.removespawn             | Allows a player to use /removespawn.                                                         |
+| at.admin.request-in-vanish       | Allows a player to make a /tpa request whilst invisible to another player.                   |
+| at.admin.sethome                 | Allows a player to set a home for another player.                                            |
+| at.admin.sethome.bypass          | Allows a player to bypass the /sethome limit.                                                |
+| at.admin.setmainhome             | Allows a player to set a home for another player.                                            |
+| at.admin.setmainspawn            | Allows a player to use /setmainspawn.                                                        |
+| at.admin.setspawn                | Allows a player to use /setspawn.                                                            |
+| at.admin.setspawn.other          | Allows a player set a spawn using /setspawn with a name included.                            |
+| at.admin.setwarp                 | Allows a player to set a warp using /setwarp.                                                |
+| at.admin.sign.bed.create         | Allows a player to create a sign with [Bed] on it.                                           |
+| at.admin.sign.randomtp.create    | Allows a player to create a sign with [RandomTP] on it.                                      |
+| at.admin.sign.spawn.create       | Allows a player to create a sign with [Spawn] on it.                                         |
+| at.admin.sign.warp.create        | Allows a player to create a sign with [Warp] on it.                                          |
+| at.admin.sign.warps.create       | Allows a player to create a sign with [Warps] on it.                                         |
+| at.admin.toggletp                | Allows a player to toggle teleportation status for another player.                           |
+| at.admin.tploc                   | Allows a player to use /tploc.                                                               |
+| at.admin.tploc.others            | Allows a player to teleport another player using /tploc.                                     |
+| at.admin.tploc.safe-teleport     | Allows a player to safely teleport using /tploc without falling.                             |
+| at.admin.tpo                     | Allows a player to use /tpo, which overrides a player's teleportation status.                |
+| at.admin.tpoffline               | Allows a player to use /tpoffl, so they can teleport to an offline player.                   |
+| at.admin.tpofflinehere           | Allows a player to use /tpofflh, so they can change the login location of an offline player. |
+| at.admin.tpohere                 | Allows a player to use /tpohere.                                                             |
+| at.admin.tpr.bypass-world        | Allows a player to bypass world restrictions on /tpr.                                        |
+| at.admin.tpr.other               | Allows a player to teleport another player using /tpr.                                       |
+| at.admin.tpr.other.selector      | Allows a player to teleport a selection of players using @p, @a, etc.                        |
