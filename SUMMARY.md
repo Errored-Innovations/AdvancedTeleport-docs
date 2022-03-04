@@ -7,6 +7,10 @@
   * [Admin Commands](commands/admin-commands.md)
 * [Permissions](permissions.md)
 
+## Advanced Configuration
+
+* [Per-Command Cost Setup](advanced-configuration/per-command-cost-setup.md)
+
 ## Supported Plugins
 
 * [Border Plugins](supported-plugins/border-plugins.md)

@@ -67,7 +67,7 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.admin.bypass.timer            | Allows a player to bypass the warm-up timer.                     |
 | at.admin.delhome                 | Allows a player to delete another player's homes using /delhome. |
 | at.admin.delwarp                 | Allows a player to delete a warp using /delwarp.                 |
-| at.admin.home                    |                                                                  |
+| at.admin.home                    | Allows a player omg stp                                          |
 | at.admin.homes                   |                                                                  |
 | at.admin.mirrorspawn             |                                                                  |
 | at.admin.movehome                |                                                                  |
