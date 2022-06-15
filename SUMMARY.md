@@ -2,14 +2,20 @@
 
 * [Home](README.md)
 * [FAQ](faq.md)
-* [Commands](commands/README.md)
-  * [Member Commands](commands/member-commands.md)
-  * [Admin Commands](commands/admin-commands.md)
 * [Permissions](permissions.md)
+
+## Commands
+
+* [Member Commands](commands/member-commands.md)
+* [Admin Commands](commands/admin-commands.md)
 
 ## Advanced Configuration
 
 * [Per-Command Cost Setup](advanced-configuration/per-command-cost-setup.md)
+* [Random Teleportation](advanced-configuration/random-teleportation.md)
+* [Spawn Management](advanced-configuration/spawn-management.md)
+* [Teleport Limitations](advanced-configuration/teleport-limitations.md)
+* [Warp GUI](advanced-configuration/warp-gui.md)
 
 ## Supported Plugins
 

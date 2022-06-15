@@ -38,7 +38,7 @@ death-management:
 
 ### Does AdvancedTeleport support networks (e.g. Bungeecord)?
 
-No. Whilst there are ideas to draft a Velocity and Bungeecord equivalent to AdvancedTeleport, there is nothing set in stone at this time.
+No - whilst there are ideas to draft a Velocity and Bungeecord equivalent to AdvancedTeleport, there is nothing set in stone at this time.
 
 Input on what could become of such a plugin though (e.g. what would it be useful for?) is more than welcome.
 
