@@ -25,3 +25,19 @@ AdvancedTeleport is open-source on Github [here](https://github.com/Niestrat99/A
 ### Support
 
 Although AdvancedTeleport has a discussion forum on Spigot, the main form of support most people look for is through our [Discord](https://discord.gg/mgWbbN4) server. If you believe you have found a bug or have a suggestion, you are also free to have it posted on [Github](https://github.com/Niestrat99/AT-Rewritten/issues).
+
+### Contributions
+
+AdvancedTeleport would not be where it is today if it was not for the brilliant work of its contributors. To cover each one and what they have done for the plugin:
+
+* Niestrat99 - plugin author
+* Thatsmusic99 - plugin developer, overlord of pull request abuse
+* SuspiciousLookingOwl - sound notifications for /tpa and /tpahere, homes and warps can be interacted within /homes and /warps, and the warps GUI. ([#12](https://github.com/Niestrat99/AT-Rewritten/pull/12), [#14](https://github.com/Niestrat99/AT-Rewritten/pull/14), [#16](https://github.com/Niestrat99/AT-Rewritten/pull/16), [#17](https://github.com/Niestrat99/AT-Rewritten/pull/17))
+* siaynoq - cancel teleportation on movement rather than just rotation ([#8](https://github.com/Niestrat99/AT-Rewritten/pull/8))
+* TheMrEngMan - choose where to apply the server cooldown ([#27](https://github.com/Niestrat99/AT-Rewritten/pull/27))
+* jonas-t-s - /back search radius, Floodgate API usage ([#42](https://github.com/Niestrat99/AT-Rewritten/pull/17), [#50](https://github.com/Niestrat99/AT-Rewritten/pull/50))
+* YouHaveTrouble - "tiny changes" yeah, right ([#55](https://github.com/Niestrat99/AT-Rewritten/pull/55))
+* Geolykt - selectors (@a, @p) can be used in /tpr ([#61](https://github.com/Niestrat99/AT-Rewritten/pull/61))
+* DaRacci - improved RTP options, per-world settings for RTP, claim plugin hooks ([#76](https://github.com/Niestrat99/AT-Rewritten/pull/76))
+
+I would like to note this only accounts for major plugin changes, and does not account for minor changes such as typo fixes and compilation corrections (covered by contributors such as SuspiciousLookingOwl, Geolykt and animeavi).
