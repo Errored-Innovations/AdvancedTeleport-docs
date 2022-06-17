@@ -15,7 +15,7 @@ disabled-commands:
 
 ### What's a permissions plugin?
 
-No, seriously, this gets asked at least every week.
+This gets asked quite frequently when we recommend them so having an FAQ for it here would be handy.
 
 A permission plugin lets you manipulate what a specific set of players can use or access through permission nodes. LuckPerms is the most recommended plugin to use for this due to its rich diagnostic tools and web GUIs.
 
@@ -48,6 +48,6 @@ The two plugins are entirely separate - if you have both on the same server thou
 
 You can also import plugin data from Essentials at AT or vice versa.
 
-### How do you delete a home?
+### Warm-ups, cooldowns, costs, etc. do not work!
 
-Using `/delhome <Home Name>`.
+This does happen if you are an admin or OPed. The specific permission controlling this is `at.admin.bypass.payment`, so if you're using a permissions plugin, be sure to explicitly negate it.
