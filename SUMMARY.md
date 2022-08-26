@@ -11,6 +11,7 @@
 
 ## Advanced Configuration
 
+* [Dynamic Permissions](advanced-configuration/dynamic-permissions.md)
 * [Per-Command Cost Setup](advanced-configuration/per-command-cost-setup.md)
 * [Random Teleportation](advanced-configuration/random-teleportation.md)
 * [Spawn Management](advanced-configuration/spawn-management.md)
