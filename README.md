@@ -15,7 +15,7 @@ This is a plugin written by Niestrat99 and Thatsmusic99 - it has been in ongoing
 AdvancedTeleport is intended for use from 1.8.x to 1.19.x. When a new Minecraft version (major or minor) is released, it is expected to work without issues. Nonetheless, the plugin is tested as soon as possible following release.
 
 {% hint style="warning" %}
-1.8 to 1.15.2 support will be dropped in the near future.
+1.8 to 1.17.1 support will be dropped in the near future.
 {% endhint %}
 
 For economy support, [Vault](https://www.spigotmc.org/resources/vault.34315/) and an economy plugin of your choice (such as Essentials) is required.
