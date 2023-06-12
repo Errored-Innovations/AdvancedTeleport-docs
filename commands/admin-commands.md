@@ -132,17 +132,23 @@ This page lists up all administrator commands.
 
 * `[ID]` - The ID of the spawnpoint that will be removed.
 
+### `/at clearcache`
+
+**Usage:** /at clearcache\
+**Description:** Clears the RTP cache within the plugin.\
+**Permission:** at.admin.core.clearcache
+
 ### `/at reload`
 
 **Usage:** /at reload\
 **Description:** Reloads all configuration within the plugin.\
-**Permission:** at.member.core.reload
+**Permission:** at.admin.core.reload
 
 ### `/at import`
 
 **Usage:** /at import \<Plugin> \[Data]\
 **Description:** Imports data from a specified plugin into AT's data storage.\
-**Permission:** at.member.core.import\
+**Permission:** at.admin.core.import\
 **Arguments:**
 
 * `<Plugin>` - The plugin to have its data imported. Currently, this can only be Essentials.
@@ -152,8 +158,18 @@ This page lists up all administrator commands.
 
 **Usage:** /at export \<Plugin> \[Data]\
 **Description:** Exports data from AT's data storage into another plugin's storage.\
-**Permission:** at.member.core.export\
+**Permission:** at.admin.core.export\
 **Arguments:**
 
 * `<Plugin>` - The plugin to have its data exported. Currently, this can only be Essentials.
 * `[Data]` - The type of data to be exported. Valid options include `Homes`, `Warps`, `Spawns`, `lastlocs`, `Players`. Any other specified option exports all data.
+
+### `/at purge`
+
+Usage: /at purge \<warps|homes> \<world|player> \<World Name|Player Name>\
+Description: Deletes either warps or homes from a specific world or belonging to a specific player.\
+Arguments:
+
+* `<Warps|Homes>` - Either Warps to delete warps, or Homes to delete homes.
+* `<World|Player>` - Either World to indicate deleting in a world, or Player to indicate deleting a player's data.
+* `<World Name|Player Name>` - The world or player name that is having data attached to it deleted.

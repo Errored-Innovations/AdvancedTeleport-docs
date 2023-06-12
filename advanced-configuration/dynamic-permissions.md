@@ -1,10 +1,10 @@
 ---
-description: Dynamic permissions for v5.7 and how they work
+description: Dynamic permissions for v6 and how they work
 ---
 
 # Dynamic Permissions
 
-Dynamic Permissions is a new feature added in v5.7 that allows you to set up permissions for an individual group or player so that you can make cooldowns, distance limitations, costs and warm-ups unique to them rather than use the central configurations for everyone.
+Dynamic Permissions is a new feature added in v6 that allows you to set up permissions for an individual group or player so that you can make cooldowns, distance limitations, costs and warm-ups unique to them rather than use the central configurations for everyone.
 
 ### Dynamic Permissions and Custom Configuration
 

@@ -42,7 +42,7 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.member.warps.location    | Allows a player to view the location of a warp in /warps.                                              |
 | at.member.yes               | Allows a player to use /tpayes.                                                                        |
 
-### Core Permissions
+### Core Member Permissions
 
 | Permission            | Description                               |
 | --------------------- | ----------------------------------------- |
@@ -53,6 +53,16 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.member.core.info   | Allows a player to use /at info.          |
 | at.member.core.purge  | Allows a player to use /at purge.         |
 | at.member.core.reload | Allows a player to use /at reload.        |
+
+### Core Admin Permissions
+
+| Permission               | Description                            |
+| ------------------------ | -------------------------------------- |
+| at.admin.core.clearcache | Allows a player to use /at clearcache. |
+| at.admin.core.export     | Allows a player to use /at export.     |
+| at.admin.core.import     | Allows a player to use /at import.     |
+|  at.admin.core.purge     | Allows a player to use /at purge.      |
+| at.admin.core.reload     | Allows a player to use /at reload.     |
 
 ### Admin Permissions
 
@@ -81,11 +91,11 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.admin.setspawn                | Allows a player to use /setspawn.                                                            |
 | at.admin.setspawn.other          | Allows a player set a spawn using /setspawn with a name included.                            |
 | at.admin.setwarp                 | Allows a player to set a warp using /setwarp.                                                |
-| at.admin.sign.bed.create         | Allows a player to create a sign with [Bed] on it.                                           |
-| at.admin.sign.randomtp.create    | Allows a player to create a sign with [RandomTP] on it.                                      |
-| at.admin.sign.spawn.create       | Allows a player to create a sign with [Spawn] on it.                                         |
-| at.admin.sign.warp.create        | Allows a player to create a sign with [Warp] on it.                                          |
-| at.admin.sign.warps.create       | Allows a player to create a sign with [Warps] on it.                                         |
+| at.admin.sign.bed.create         | Allows a player to create a sign with \[Bed] on it.                                          |
+| at.admin.sign.randomtp.create    | Allows a player to create a sign with \[RandomTP] on it.                                     |
+| at.admin.sign.spawn.create       | Allows a player to create a sign with \[Spawn] on it.                                        |
+| at.admin.sign.warp.create        | Allows a player to create a sign with \[Warp] on it.                                         |
+| at.admin.sign.warps.create       | Allows a player to create a sign with \[Warps] on it.                                        |
 | at.admin.toggletp                | Allows a player to toggle teleportation status for another player.                           |
 | at.admin.tploc                   | Allows a player to use /tploc.                                                               |
 | at.admin.tploc.others            | Allows a player to teleport another player using /tploc.                                     |
