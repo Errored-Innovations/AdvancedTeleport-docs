@@ -51,3 +51,7 @@ You can also import plugin data from Essentials at AT or vice versa.
 ### Warm-ups, cooldowns, costs, etc. do not work!
 
 This does happen if you are an admin or OPed. The specific permission controlling this is `at.admin.bypass.payment`, so if you're using a permissions plugin, be sure to explicitly negate it.
+
+### I can't use signs when de-OPed, but I can whilst OPed?
+
+Try setting spawn-protection in your server.properties file to 0 and restarting the server, but also ensure to protect your spawnpoint in the process! Plugins recommended for this include WorldGuard.

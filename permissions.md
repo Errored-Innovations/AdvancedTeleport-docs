@@ -38,21 +38,18 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.member.warp              | Allows a player to use /warp.                                                                          |
 | at.member.warp.\<Warp>      | Allows a player to teleport to a specific warp. `at.member.warp.*` is provided to everyone by default. |
 | at.member.warp.use-sign     | Allows a player to use a \[Warp] sign.                                                                 |
+| at.member.warp.sign.\<Warp> | Allows a player to teleport use a \[Warp] sign with the specified warp on it.                          |
 | at.member.warps             | Allows a player to use /warps.                                                                         |
 | at.member.warps.location    | Allows a player to view the location of a warp in /warps.                                              |
 | at.member.yes               | Allows a player to use /tpayes.                                                                        |
 
 ### Core Member Permissions
 
-| Permission            | Description                               |
-| --------------------- | ----------------------------------------- |
-| at.member.core        | Gives a player access to the /at command. |
-| at.member.core.export | Allows a player to use /at export.        |
-| at.member.core.help   | Allows a player to use /at help.          |
-| at.member.core.import | Allows a player to use /at import.        |
-| at.member.core.info   | Allows a player to use /at info.          |
-| at.member.core.purge  | Allows a player to use /at purge.         |
-| at.member.core.reload | Allows a player to use /at reload.        |
+| Permission          | Description                               |
+| ------------------- | ----------------------------------------- |
+| at.member.core      | Gives a player access to the /at command. |
+| at.member.core.help | Allows a player to use /at help.          |
+| at.member.core.info | Allows a player to use /at info.          |
 
 ### Core Admin Permissions
 
