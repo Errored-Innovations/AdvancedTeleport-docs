@@ -1,3 +1,3 @@
 # Particle Plugins
 
-Planned for v5.7.
+Planned for v6.

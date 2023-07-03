@@ -11,6 +11,7 @@
 
 ## Advanced Configuration
 
+* [Custom Messages and Formats](advanced-configuration/custom-messages-and-formats.md)
 * [Dynamic Permissions](advanced-configuration/dynamic-permissions.md)
 * [Per-Command Cost Setup](advanced-configuration/per-command-cost-setup.md)
 * [Random Teleportation](advanced-configuration/random-teleportation.md)
