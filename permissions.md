@@ -82,7 +82,6 @@ All permissions starting with at.member are given to everyone automatically, wit
 | at.admin.removespawn             | Allows a player to use /removespawn.                                                         |
 | at.admin.request-in-vanish       | Allows a player to make a /tpa request whilst invisible to another player.                   |
 | at.admin.sethome                 | Allows a player to set a home for another player.                                            |
-| at.admin.sethome.bypass          | Allows a player to bypass the /sethome limit.                                                |
 | at.admin.setmainhome             | Allows a player to set a home for another player.                                            |
 | at.admin.setmainspawn            | Allows a player to use /setmainspawn.                                                        |
 | at.admin.setspawn                | Allows a player to use /setspawn.                                                            |
