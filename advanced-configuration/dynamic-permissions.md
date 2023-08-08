@@ -78,7 +78,7 @@ custom-warm-ups:
   mvp-warmup: 3
 ```
 
-Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.timer.<group>`, such as `at.member.timer.vip-cooldown`.&#x20;
+Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.timer.<group>`, such as `at.member.timer.vip-warmup`.&#x20;
 
 * These can also be assigned per-command, such as `at.member.timer.tpa.vip-warmup`.
 * These can be assigned by destination world too, such as `at.member.timer.world.vip-warmup`.
