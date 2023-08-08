@@ -32,7 +32,7 @@ When using world names in the permissions, it must use the IDs of the world. For
 
 * To add a cooldown of 5 seconds, you can easily just use the permission `at.member.cooldown.5`.
 * To make it per-command, use `at.member.cooldown.<command>.5`. As an example of this for the /tpa command, `at.member.cooldown.tpa.5`.
-* To make it per-world, use `at.member.cooldown.<world>.5`. For example, `at.member.cooldown.world.5`.
+* To make it depend on the world you are teleporting to, use `at.member.cooldown.<world>.5`. For example, `at.member.cooldown.world.5` to receive a cooldown of 5 seconds when teleporting to world.
 * To make it best of both, use `at.member.cooldown.<command>.<world>.5`.
 
 The value of 5 can be replaced with any integer value.
@@ -52,5 +52,34 @@ custom-cooldowns:
 Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.cooldown.<group>`, such as `at.member.cooldown.vip-cooldown`.&#x20;
 
 * These can also be assigned per-command, such as `at.member.cooldown.tpa.vip-cooldown`.
-* These can be assigned per-world too, such as `at.member.cooldown.world.vip-cooldown`.
+* These can be assigned by destination world too, such as `at.member.cooldown.world.vip-cooldown`.
 * For both, use something similar to `at.member.cooldown.tpa.world.vip-cooldown`.
+
+## Warm-ups
+
+### Dynamic Permissions
+
+* To add a warm-up of 5 seconds, you can easily just use the permission `at.member.timer.5`.
+* To make it per-command, use `at.member.timer.<command>.5`. As an example of this for the /tpa command, `at.member.timer.tpa.5`.
+* To make it depend on the world you are teleporting to, use `at.member.timer.<world>.5`. For example, `at.member.timer.world.5` to receive a warm-up of 5 seconds when teleporting to world.
+* To make it best of both, use `at.member.timer.<command>.<world>.5`.
+
+The value of 5 can be replaced with any integer value.
+
+The lowest values assigned are prioritised over higher values. Because of this, if you give a higher-weighting group (such as Moderator) a warm-up of 5 seconds but it inherits a group with a warm-up of 3 seconds, the moderator group will have a warm-up of 3 seconds. The work-around for this is to negate the permission `at.member.timer.3` for the group, or use custom configuration.
+
+### Custom Configuration
+
+The configuration section for this is `custom-warm-ups`, and requires a format of the following:
+
+```yaml
+custom-warm-ups:  
+  vip-warmup: 5
+  mvp-warmup: 3
+```
+
+Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.timer.<group>`, such as `at.member.timer.vip-cooldown`.&#x20;
+
+* These can also be assigned per-command, such as `at.member.timer.tpa.vip-warmup`.
+* These can be assigned by destination world too, such as `at.member.timer.world.vip-warmup`.
+* For both, use something similar to `at.member.timer.tpa.world.vip-warmup`.
