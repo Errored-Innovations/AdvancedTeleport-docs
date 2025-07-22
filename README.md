@@ -17,10 +17,10 @@ This wiki itself is still a work in progress, but it can be contributed to.
 
 ## Requirements
 
-AdvancedTeleport is intended for use from 1.18.x to 1.20.x. When a new Minecraft version (major or minor) is released, it is expected to work without issues. Nonetheless, the plugin is tested as soon as possible following release.
+AdvancedTeleport is intended for use from 1.18.x to 1.21.x. When a new Minecraft version (major or minor) is released, it is expected to work without issues. Nonetheless, the plugin is tested as soon as possible following release.
 
 {% hint style="warning" %}
-1.8 to 1.17.1 support has been dropped by the v6 series. Legacy support for v5 is still available, but only bugfixes are made.
+1.8 to 1.17.1 support has been dropped by the v6 series. Legacy support for v5 is still available, but only bugfixes are made. The support system will also be changing, where AT will only support the latest version of Minecraft, but both Spigot and Paper.
 {% endhint %}
 
 For economy support, [Vault](https://www.spigotmc.org/resources/vault.34315/) and an economy plugin of your choice (such as Essentials) is required.
