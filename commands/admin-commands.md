@@ -1,4 +1,8 @@
-# Admin Commands
+---
+description: A list of commands that server administrators are able to use.
+---
+
+# 🔺 Admin Commands
 
 This page lists up all administrator commands.
 

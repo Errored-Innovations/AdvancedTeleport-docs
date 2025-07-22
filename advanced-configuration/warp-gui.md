@@ -1,3 +1,0 @@
-# Warp GUI
-
-TODO

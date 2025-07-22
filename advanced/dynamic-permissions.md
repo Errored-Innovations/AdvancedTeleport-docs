@@ -2,9 +2,13 @@
 description: Dynamic permissions for v6 and how they work
 ---
 
-# Dynamic Permissions
+# ♻️ Dynamic Permissions
 
 Dynamic Permissions is a new feature added in v6 that allows you to set up permissions for an individual group or player so that you can make cooldowns, distance limitations, costs and warm-ups unique to them rather than use the central configurations for everyone.
+
+{% hint style="danger" %}
+This page will eventually be removed when its relevant sections are moved to their own pages.
+{% endhint %}
 
 ### Dynamic Permissions and Custom Configuration
 
@@ -49,7 +53,7 @@ custom-cooldowns:
   mvp-cooldown: 3
 ```
 
-Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.cooldown.<group>`, such as `at.member.cooldown.vip-cooldown`.&#x20;
+Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.cooldown.<group>`, such as `at.member.cooldown.vip-cooldown`.
 
 * These can also be assigned per-command, such as `at.member.cooldown.tpa.vip-cooldown`.
 * These can be assigned by destination world too, such as `at.member.cooldown.world.vip-cooldown`.
@@ -78,7 +82,7 @@ custom-warm-ups:
   mvp-warmup: 3
 ```
 
-Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.timer.<group>`, such as `at.member.timer.vip-warmup`.&#x20;
+Groups further down the list are prioritised more than the ones above it. To assign a group as a permission, use `at.member.timer.<group>`, such as `at.member.timer.vip-warmup`.
 
 * These can also be assigned per-command, such as `at.member.timer.tpa.vip-warmup`.
 * These can be assigned by destination world too, such as `at.member.timer.world.vip-warmup`.

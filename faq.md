@@ -2,7 +2,7 @@
 description: Frequently asked questions about the plugin.
 ---
 
-# FAQ
+# ❓ FAQ
 
 ### How do I disable /back?
 

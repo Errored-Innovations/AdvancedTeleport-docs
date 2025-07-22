@@ -1,9 +1,13 @@
-# Permissions
+---
+description: A list of permissions for everything in AT.
+---
+
+# 🎫 Permissions
 
 This page lists all of the existing permissions in AdvancedTeleport.
 
 {% hint style="info" %}
-All permissions starting with at.member are given to everyone automatically, with an exception for a select few permissions.
+All permissions starting with at.member are given to everyone automatically in the config.yml file, with an exception for a select few permissions.
 {% endhint %}
 
 ### Member Permissions

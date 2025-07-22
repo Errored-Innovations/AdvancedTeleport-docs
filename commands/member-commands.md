@@ -1,6 +1,12 @@
-# Member Commands
+---
+description: >-
+  A list of commands that are automatically given to all players in the default
+  configuration.
+---
 
-This page lists up commands available to all players by default.
+# 🔰 Member Commands
+
+This page lists up commands available to all players by default. All of these commands are provided through `at.member.*`.
 
 {% hint style="info" %}
 <> indicate mandatory arguments, whilst \[] indicate optional arguments.
@@ -8,40 +14,48 @@ This page lists up commands available to all players by default.
 
 ### `/tpa`
 
-**Usage:** /tpa \<Player Name>\
+**Usage:** `/tpa <Player Name>`\
 **Description:** Sends a teleportation request to another player, asking to teleport to the player's location.\
-**Permission:** at.member.tpa\
+**Permission:** `at.member.tpa`\
 **Arguments:**
 
 * `<Player Name>` - the name of the player to be teleported to.
 
+***
+
 ### `/tpahere`
 
-**Usage:** /tpahere \<Player Name>\
-**Description:** Sends a teleportation request to another player, asking the player to teleport to them.\
-**Permission:** at.member.here\
+**Usage:** `/tpahere <Player Name>`\
+**Description:** Sends a teleportation request to another player, asking the player to teleport to you.\
+**Permission:** `at.member.here`\
 **Arguments:**
 
 * `<Player Name>` - the name of the player to be teleported to the sender.
 
+***
+
 ### `/tpcancel`
 
-**Usage:** /tpcancel \[Player Name]\
-**Description:** Cancels a previously sent teleport request.\
-**Permission:** at.member.cancel\
+**Usage:** `/tpcancel [Player Name]`\
+**Description:** Cancels a previously sent teleport request. If there is only one teleport request that has been sent out, then the player name argument is not required.\
+**Permission:** `at.member.cancel`\
 **Arguments:**
 
 * `[Player Name]` - the name of the player whose request to is being cancelled.
 
+***
+
 ### `/tpayes`
 
-**Usage:** /tpayes \[Player Name]\
+**Usage:** `/tpayes [Player Name]`\
 **Description:** Accepts a specified teleport request.\
-**Permission:** at.member.yes\
-**Aliases:** /tpaccept, /tpyes\
+**Permission:** `at.member.yes`\
+**Aliases:** `/tpaccept`, `/tpyes`\
 **Arguments:**
 
 * `[Player Name]` - the name of the player whose request is being accepted.
+
+***
 
 ### `/tpano`
 
@@ -53,6 +67,8 @@ This page lists up commands available to all players by default.
 
 * `[Player Name]` - the name of the player whose request is being denied.
 
+***
+
 ### `/tpblock`
 
 **Usage:** /tpblock \<Player Name>\
@@ -61,6 +77,8 @@ This page lists up commands available to all players by default.
 **Arguments:**
 
 * `<Player Name>` - the name of the player to be blocked.
+
+***
 
 ### `/tpunblock`
 
@@ -71,6 +89,8 @@ This page lists up commands available to all players by default.
 
 * `<Player Name>` - the name of the player to be unblocked.
 
+***
+
 ### `/tpalist`
 
 **Usage:** /tpalist \[Page Number]\
@@ -79,6 +99,8 @@ This page lists up commands available to all players by default.
 **Arguments:**
 
 * `[Page Number]` - the page number of TPA requests to be shown.
+
+***
 
 ### `/toggletp`
 
@@ -89,17 +111,23 @@ This page lists up commands available to all players by default.
 
 * `[Player Name]` - The player to have their teleportation toggled, requires the permission `at.admin.toggletp`
 
+***
+
 ### `/tpon`
 
 **Usage:** /tpon\
 **Description:** Lets you receive TP requests.\
 **Permission:** at.member.on
 
+***
+
 ### `/tpoff`
 
 **Usage:** /tpoff\
 **Description:** Stops you receiving teleport requests.\
 **Permission:** at.member.off
+
+***
 
 ### `/rtp`
 
@@ -112,6 +140,8 @@ This page lists up commands available to all players by default.
 * `[World Name]` - The name of the world that /rtp is to be used in. Requires `at.member.tpr.other`.
 * `[Player Name]` - The name of the player to be randomly teleported. Requires a world name to be specified in front. Also requires the sender to have the permission `at.admin.tpr.other`.
 
+***
+
 ### `/warp`
 
 **Usage:** /warp \<Warp Name>\
@@ -121,11 +151,15 @@ This page lists up commands available to all players by default.
 
 * `<Warp Name>` - The name of the warp to be teleported to.
 
+***
+
 ### `/warps`
 
 **Usage:** /warps\
 **Description:** Either opens up a GUI or sends the player a list of warps, depending on what is specified in the config.\
 **Permission:** at.member.warps
+
+***
 
 ### `/spawn`
 
@@ -135,6 +169,8 @@ This page lists up commands available to all players by default.
 **Arguments:**
 
 * `[ID]` - The ID of the spawn to be teleported to.
+
+***
 
 ### `/home`
 
@@ -146,6 +182,8 @@ This page lists up commands available to all players by default.
 * `[Home Name]` - The name of the home to be teleported to.
 * `[Player Name]` - The name of the player whose homes are to be teleported to and will replace the first `[Home Name]` argument when it is able to. Must have a home specified after it and the sender must have the permission `at.admin.home`. (Example: /home Thatsmusic99 chicken-nuggies)
 
+***
+
 ### `/homes`
 
 **Usage:** /homes \[Player Name]\
@@ -154,6 +192,8 @@ This page lists up commands available to all players by default.
 **Arguments:**
 
 * `[Player Name]` - The name of the player to have their homes listed. Must have the permission `at.admin.homes`.
+
+***
 
 ### `/sethome`
 
@@ -165,6 +205,8 @@ This page lists up commands available to all players by default.
 * `<Home Name>` - The name of the home to be set.
 * `<Player Name>` - The name of the player to have a home set for them. Must have a home name specified after it and must have the permission `at.admin.sethome`.
 
+***
+
 ### `/delhome`
 
 **Usage:** /delhome \<Home Name>|(\<Player Name> \<Home Name>)\
@@ -174,6 +216,8 @@ This page lists up commands available to all players by default.
 
 * `<Home Name>` - The name of the home to be deleted.
 * `<Player Name>` - The name of the player to have their home deleted. Must have a home name specified after it and must have the permission `at.admin.delhome`.
+
+***
 
 ### `/movehome`
 
@@ -185,6 +229,8 @@ This page lists up commands available to all players by default.
 * `<Home Name>` - The name of the home to be moved.
 * `<Player Name>` - The name of the player to have their home moved. Must have a home name specified after it and must have the permission `at.admin.movehome`.
 
+***
+
 ### `/setmainhome`
 
 **Usage:** /setmainhome \<Home Name>|(\<Player Name> \<Home Name>)\
@@ -195,17 +241,23 @@ This page lists up commands available to all players by default.
 * `<Home Name>` - The name of the home to be considered the player's main home.
 * `<Player Name>` - The name of the player to have a main home set. Must have a home name specified after it and must have the permission `at.member.setmainhome`.
 
+***
+
 ### `/back`
 
 **Usage:** /back\
 **Description:** Returns you to your previous location.\
 **Permission:** at.member.back
 
+***
+
 ### `/at info`
 
 **Usage:** /at info\
 **Description:** Shows the majority of plugin information, such as version.\
 **Permission:** at.member.core.info
+
+***
 
 ### `/at help`
 

@@ -1,3 +1,3 @@
-# Particle Plugins
+# ✨ Particle Plugins
 
-Planned for v6.
+`// TODO`

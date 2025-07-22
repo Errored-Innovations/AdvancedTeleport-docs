@@ -1,4 +1,4 @@
-# Custom Messages and Formats
+# 📩 Custom Messages and Formats
 
 AdvancedTeleport has a diverse and robust message handling system, of which provides a lot of control to the server administrator with how messages are sent and handled.
 
@@ -40,13 +40,13 @@ If you don't want a message to be sent at all, just make it empty:
   eventTeleport: ''
 ```
 
-Removing it will only re-add it since it is considered required.
+Removing it will only re-add it since it is considered a required option in the config.
 
 Like most plugins (to those who don't, why??), legacy colour formatting using &1, &2, etc. is supported in messages.
 
 ## Running Commands, Hoverable Text and Clickable Links
 
-{% hint style="info" %}
+{% hint style="warning" %}
 The format for this is being deprecated in v6 in favour of using the MiniMessage formatting. This still applies without issue for v5.
 {% endhint %}
 
@@ -79,5 +79,5 @@ Some older server versions do not support titles and subtitles whatsoever, and s
 
 By creating a new section with the \_title suffix, you can make titles appear when a message is sent - you may have seen this if you have used the plugin with its default settings.
 
-
+`// TODO`
 

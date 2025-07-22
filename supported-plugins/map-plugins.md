@@ -1,3 +1,5 @@
-# Map Plugins
+# 🗺️ Map Plugins
 
-Planned for v6
+AdvancedTeleport has support for different map plugins with varying capabilities.
+
+`// TODO`
