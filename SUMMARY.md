@@ -19,6 +19,7 @@
 * [🏘️ Homes](features/homes.md)
 * [🔥 Warm-ups](features/warm-ups.md)
 * [❄️ Cooldowns](features/cooldowns.md)
+* [🛡️ Invulnerability](features/invulnerability.md)
 * [💸 Command Costs](features/command-costs.md)
 * [🗺️ Map Representation](features/map-representation.md)
 * [🛑 Teleport Limitations](features/teleport-limitations.md)

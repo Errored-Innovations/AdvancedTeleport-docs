@@ -85,6 +85,15 @@ Or, harsher yet, cancel the teleportation if the player rotates slightly with th
 cancel-warm-up-on-rotation: true
 ```
 
+### Damage
+
+You can additionally make warm-ups cancel when players take damage with the `cancel-warm-up-on-damage` option.
+
+<pre class="language-yaml"><code class="lang-yaml"># Whether or not teleportation should be cancelled when the player receives damage.
+# Best option to accompany the invulnerability system if your server has it enabled, so that players can't cheese it. :thumbsup:
+<strong>cancel-warm-up-on-damage: true
+</strong></code></pre>
+
 ## Dynamic Warm-ups
 
 {% hint style="info" %}
