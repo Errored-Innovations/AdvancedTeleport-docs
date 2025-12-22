@@ -89,6 +89,34 @@ If you want to change the first spawn point to just use the main spawnpoint agai
 first-spawn-point: ''
 ```
 
+### Random Teleportation on First Join
+
+If you want a player to teleport to a random location when they first join the server, it can be done via enabling `use-random-location-for-first-spawn-point` :&#x20;
+
+```yaml
+use-random-location-for-first-spawn-point: true
+```
+
+{% hint style="warning" %}
+This feature requires the server to be on Paper and for `use-rapid-response` to be enabled.
+{% endhint %}
+
+To change the world that the player randomly teleports within, the option `first-random-teleportation-world-name` can be edited to use the world you want players to be teleported into:
+
+```yaml
+first-random-teleportation-world-name: survival
+```
+
+If left blank, the plugin will just assume the world where the main spawnpoint is set, or the server's main world if there is no main spawnpoint set.
+
+In some cases, you may also want to set that first point as the player's main home - thus, if you enable `set-first-random-location-as-home`, it will do exactly that:
+
+```yaml
+set-first-random-location-as-home: true
+```
+
+This home will be named `home`.
+
 ## Mirroring Spawns
 
 If you want to have a dynamic spawn system, you can mirror spawns so that players can go to a different spawnpoint if they don't have access to a certain one.
@@ -96,4 +124,3 @@ If you want to have a dynamic spawn system, you can mirror spawns so that player
 {% hint style="info" %}
 As it stands, the mirror system isn't incredibly applicable and where it is, it's even less accessible. I'd like to make some improvements down the line that will improve its accessibility and consequently, its applicability, so this section doesn't go into heavy detail whilst those changes are pending.
 {% endhint %}
-
