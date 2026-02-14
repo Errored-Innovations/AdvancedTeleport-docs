@@ -38,6 +38,7 @@ All permissions starting with at.member are given to everyone automatically in t
 | at.member.toggletp          | Allows a player to use /toggletp.                                                                      |
 | at.member.tpa               | Allows a player to use /tpa.                                                                           |
 | at.member.tpr               | Allows a player to use /tpr.                                                                           |
+| at.member.tpr.other         | Allows a player to select the world to go to when using /tpr. This does not bypass whitelisted worlds. |
 | at.member.unblock           | Allows a player to use /tpunblock.                                                                     |
 | at.member.warp              | Allows a player to use /warp.                                                                          |
 | at.member.warp.\<Warp>      | Allows a player to teleport to a specific warp. `at.member.warp.*` is provided to everyone by default. |

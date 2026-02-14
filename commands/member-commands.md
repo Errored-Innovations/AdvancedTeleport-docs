@@ -137,7 +137,7 @@ This page lists up commands available to all players by default. All of these co
 **Aliases:** /tpr\
 **Arguments:**
 
-* `[World Name]` - The name of the world that /rtp is to be used in. Requires `at.member.tpr.other`.
+* `[World Name]` - The name of the world that /rtp is to be used in. Requires `at.member.tpr.other`. It cannot be used to bypass the world whitelist.
 * `[Player Name]` - The name of the player to be randomly teleported. Requires a world name to be specified in front. Also requires the sender to have the permission `at.admin.tpr.other`.
 
 ***
